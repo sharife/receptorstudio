@@ -1,0 +1,20 @@
+<div class="bg-off-white pv4">
+  <div class="ph3 mw7 center">
+    <h2 class="f3 b tc mb4">What We Do</h2>
+    <!-- <p class="mb4 mw6">{{.intro.text}}</p> -->
+
+    <div class="flex-ns mhn2-ns mb3">
+      {{ range .services }}
+      <div class="ph2-ns w-50-ns tc">
+        <img src="{{.image}}" alt="" class="center db mb3" style="max-width: 200px">
+        <h3 class="f5 b">{{.heading}}</h3>
+        <p>{{.text | markdownify}}</p>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="tc">
+      <a href="#contact" class="btn raise">Work with us</a>
+    </div>
+  </div>
+</div>

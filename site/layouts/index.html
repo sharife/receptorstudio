@@ -1,13 +1,19 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle) }}
+{{ partial "jumbotron" (dict "imageUrl" .Params.image "title" .Title "subtitle" .Params.subtitle "cta" .Params.cta "link" .Params.link) }}
 
-{{ partial "short-text" .Params.blurb}}
+<!-- {{ partial "short-text" .Params.blurb}} -->
+<div class="pb3 bg-black"><a name="about">&nbsp;</a></div>
+{{ partial "text-and-image" (dict "heading" .Params.approach.heading "text" .Params.approach.text "buttonText" "Get in touch" "buttonLink" "#contact") }}
 
-{{ partial "2-up" .Params }}
+<!-- {{ partial "blog" . }} -->
+<div class="mb4"><a name="services">&nbsp;</a></div>
+{{ partial "3-up" .Params }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
-
-{{ partial "blog" . }}
+<div class="mb4"><a name="clients">&nbsp;</a></div>
+<div class="w-100 tc bg-grey-3 white pv4">
+<h3 class="f3 b">Our Clients</h3>
+<img src="{{ .Params.clients }}" alt="" class="tc">
+</div>
 
 {{ end }}

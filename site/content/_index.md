@@ -1,20 +1,44 @@
 ---
-title: "Great coffee with a conscience"
-subtitle: Support sustainable farming while enjoying a cup
+title: "We craft science stories that move people."
+cta: Watch our reel
+link: "#about"
 image: /img/home-jumbotron.jpg
-blurb:
-    heading: Why Kaldi?
-    text: "Kaldi is the coffee store for everyone who believes that great coffee shouldn't just taste good, it should do good too. We source all of our beans directly from small scale sustainable farmers and make sure part of the profits are reinvested in their communities."
-intro:
-    heading: "What we offer"
-    text: "Kaldi is the ultimate spot for coffee lovers who want to learn about their java’s origin and support the farmers that grew it. We take coffee production, roasting and brewing seriously and we’re glad to pass that knowledge to anyone."
-products:
-    - image: img/illustrations-coffee.svg
-      text: "We sell green and roasted coffee beans that are sourced directly from independent farmers and farm cooperatives. We’re proud to offer a variety of coffee beans grown with great care for the environment and local communities. Check our post or contact us directly for current availability."
-    - image: /img/illustrations-coffee-gear.svg
-      text: "We offer a small, but carefully curated selection of brewing gear and tools for every taste and experience level. No matter if you roast your own beans or just bought your first french press, you’ll find a gadget to fall in love with in our shop."
-values:
-    heading: Our values
-    text: Coffee is an amazing part of human culture but it has a dark side too – one of colonialism and mindless abuse of natural resources and human lives. We want to turn this around and return the coffee trade to the drink’s exhilarating, empowering and unifying nature.
+approach:
+    heading: Why Receptor?
+    text: "Our thoughtful and collaborative process puts our clients at the center of everything we do. Though we bring years of expertise, we also know what it takes to explore new ideas: open communication, flexibility, and trust. Plus, we're a lot of fun."
+services:
+    - image: img/icon-strategy.svg
+      heading: Creative Strategy
+      text: >-
+        <ul>
+            <li>Audience Research</li>
+            <li>Opportunity Analysis</li>
+            <li>Branding & Naming</li>
+            <li>Design Workshops</li>
+            <li>Social Media Strategy</li>
+        </ul>
+    - image: /img/icon-production.svg
+      heading: Media Production
+      text: >-
+        <ul>
+            <li>Video Production</li>
+            <li>Podcast Production</li>
+            <li>Key Art Creation</li> 
+            <li>Science Illustration</li>
+            <li>3D & 2D Animation</li>
+            <li>Original Music Composition</li>
+        </ul>
+    - image: /img/icon-design.svg
+      heading: Interactive Design
+      text: >-
+        <ul>
+            <li>UX & UI design</li>
+            <li>Prototyping</li>
+            <li>User Testing</li> 
+            <li>Web Development</li>
+            <li>Game Development</li>
+            <li>AR/VR Apps</li>
+        </ul>
+clients: /img/clients.png
 ---
 
