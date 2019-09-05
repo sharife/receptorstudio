@@ -1,5 +1,5 @@
 ---
-title: "We craft science stories that move people."
+title: "We craft science stories that move people and make sense."
 cta: Watch our reel
 link: "#about"
 image: /img/home-jumbotron.jpg
