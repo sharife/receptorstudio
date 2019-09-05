@@ -11,20 +11,20 @@
 
   <div class="mw7 fullscreen-bg-text ph3 z-2">
     <div class="db mb3">
-      <div class="mw7 relative bg-fix-primary mb3">
+      <div class="mw7 relative mb3 ph3">
         <h1 class="f2 f1-l b di lh-title mb3 white mw6">
           {{.title}}
         </h1>
-      </div>
-      <div class="mw7 relative bg-fix-primary">
         {{ if .subtitle }}
         <p class="b f4 di lh-title mb3 white mw6">
           {{.subtitle}}
         </p>
         {{ end }}
         {{ if .cta }}
+        <p class="mt2">
           <a href="{{.link}}" class="btn raise bg-black white">{{.cta}}</a>
         {{ end }}
+        </p>
       </div>
     </div>
   </div>
