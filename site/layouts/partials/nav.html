@@ -1,5 +1,5 @@
 <a name="top"></a>
-<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-black fixed w-100 z-9999">
+<nav class="overflow-x-scroll overflow-x-visible-ns flex justify-between items-center center bg-black fixed w-100 z-999">
 
 	<!-- Logo -->
 	<a href="#top" class="pa3 db mr4 h-100 w4 flex-none">
@@ -7,20 +7,46 @@
 	</a>
 
 	<!-- Primary Nav -->
-	<ul class="flex b white">
-		<!-- <li><a href="/products" class="pa3 no-underline db">Products</a></li>
+	<div class="nav-p">
+		<ul class="flex b white">
+			<li><a href="#about" class="pa3 no-underline db">About Us</a></li>
 
-		<li><a href="/values" class="pa3 no-underline db">Values</a></li>
+			<li><a href="#services" class="pa3 no-underline db">Services</a></li>
 
-		<li><a href="/post" class="pa3 no-underline db">Blog</a></li> -->
+			<li><a href="#clients" class="pa3 no-underline db">Clients</a></li>
 
-		<li><a href="#about" class="pa3 no-underline db">About Us</a></li>
-
-		<li><a href="#services" class="pa3 no-underline db">Services</a></li>
-
-		<li><a href="#clients" class="pa3 no-underline db">Clients</a></li>
-
-		<li><a href="#contact" class="pa3 no-underline db">Contact</a></li>
-	</ul>
-
+			<li><a href="#contact" class="pa3 no-underline db">Contact</a></li>
+		</ul>
+	</div>
+	<!-- Responsive Nav -->
+    <div class="nav-r">
+        <a href="#" class="ph3 white no-underline f3" onclick="openSidenav();">&#9776;</a>
+    </div>
 </nav>
+
+
+<div id="rnav" class="sidenav z-max">
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul class="b white">
+
+		<li><a href="#about" class="pa3 no-underline db" onclick="closeNav()">About Us</a></li>
+
+		<li><a href="#services" class="pa3 no-underline db" onclick="closeNav()">Services</a></li>
+
+		<li><a href="#clients" class="pa3 no-underline db" onclick="closeNav()">Clients</a></li>
+
+		<li><a href="#contact" class="pa3 no-underline db" onclick="closeNav()">Contact</a></li>
+	</ul>
+</div>
+
+
+
+<script>
+function openSidenav() {
+  document.getElementById("rnav").style.width = "300px";
+}
+
+function closeNav() {
+  document.getElementById("rnav").style.width = "0";
+}
+</script>
