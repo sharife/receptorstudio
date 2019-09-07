@@ -2,11 +2,13 @@
 
 <div class="bg-black pv5 pv6-l ph3 bg-center cover" style="/*background-image: url('{{.imageUrl}}');*/ height:100vh;">
   <div class="fullscreen-bg z-1">
-      <video loop muted autoplay class="fullscreen-bg-video">
+      <!-- <video loop muted autoplay class="fullscreen-bg-video">
           <source src="/video/wt_bg.webm" type="video/webm">
           <source src="/video/wt_bg.mp4" type="video/mp4">
           <source src="/video/wt_bg.ogv" type="video/ogg">
-      </video>
+      </video> -->
+      <video muted preload="metadata" class="fullscreen-bg-video" autoplay poster="fallback-image.jpg" loop id="bgvid">
+</video>
     </div>
 
   <div class="mw7 fullscreen-bg-text ph3 z-2">
