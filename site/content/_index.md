@@ -5,7 +5,7 @@ link: "#about"
 image: /img/home-jumbotron.jpg
 approach:
     heading: Why Receptor?
-    text: "Our thoughtful and collaborative process puts our clients at the center of everything we do. Though we bring years of expertise, we also know what it takes to explore new ideas: open communication, flexibility, and trust. Plus, we're a lot of fun."
+    text: "We’re a tight-knit group of critical idealists, on a mission to make science communication more accessible, inclusive, and exciting. Though we bring years of expertise, we also know what it takes to explore new ideas: open communication, flexibility, and trust. Plus, we're a lot of fun."
 services:
     - image: img/icon-strategy.svg
       heading: Creative Strategy
